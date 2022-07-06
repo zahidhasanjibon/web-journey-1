@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* banner start here */
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/donation13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  text-align: center;
+  width: 830px;
+  height: 150px;
+}
+.banner-content h1 {
+  font-size: 55px;
+  color: white;
+}
+.banner-content p {
+  margin-top: 12px;
+  color: white;
+}
+.donate-btn {
+  margin-top: 40px;
+  font-weight: 600;
+  color: white;
+  background-color: #ff5959;
+  padding: 14px 24px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+/* banner ends here */
+
+/* hero start here */
+
+.hero {
+  margin: 70px 0;
+}
+.section-header {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-header h2 {
+  font-size: 40px;
+}
+.section-header p {
+  color: #9c515b;
+}
+.donate-amount {
+  margin: 30px auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.amount-box {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 44px 45px;
+  background-color: #ddd4d4;
+  border-radius: 6px;
+  margin-left: 20px;
+}
+.amount-box p {
+  color: teal;
+  font-size: 18px;
+  font-weight: 600;
+}
+.amount-box.active {
+  border: 2px solid tomato;
+}
+#amount-color {
+  color: tomato;
+}
+.donate-footer {
+  width: 71%;
+  margin: 40px auto;
+  text-align: center;
+}
+.amount-input {
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid teal;
+  padding-bottom: 14px;
+  outline: none;
+}
+
+/* hero ends here */
+
+/* plan section starts */
+.card-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+}
+.card {
+  width: 31%;
+  min-height: 320px;
+  padding: 14px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.card img {
+  margin-top: 35px;
+  width: 58px;
+  height: 49px;
+}
+.card h4 {
+  margin: 25px 0;
+  color: #121212;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card p {
+  color: #707070;
+
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: justify;
+}
+.card1 {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.card2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.card3 {
+  background-color: rgba(255, 244, 214, 1);
+}
+
+/* plan section emds*/
+
+/* news section start  */
+
+.news-section {
+  margin-top: 80px;
+}
+.news-card-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.news-card {
+  margin-top: 50px;
+  width: 47%;
+  height: 650px;
+  position: relative;
+}
+.news-card img {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px 10px 0 10px;
+}
+.news-card-description-wrapper {
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  width: 80%;
+  min-height: 260px;
+  padding: 15px;
+  position: absolute;
+  right: 10%;
+  top: 330px;
+  border-radius: 10px;
+}
+.news-publish-date {
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 15px;
+  width: 280px;
+}
+.news-publish-date h3 {
+  font-size: 20px;
+  color: #ff5959;
+}
+.news-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.news-desc p {
+  color: #707070;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: justify;
+}
+.news-author {
+  margin: 10px 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.author-name {
+  color: orange;
+  font-size: 18px;
+}
+.news-btn {
+  border: none;
+  margin-top: 25px;
+  background-color: #ff5959;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.news-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* news section ends  */
+
+/* subscription section */
+
+.subscripe-section {
+  margin-top: 60px;
+  width: 70%;
+  margin: 20px auto;
+}
+.subscripe-area {
+  width: 809px;
+  height: 180px;
+  background-color: #fff4d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.subscripe-area input {
+  border: none;
+  color: #707070;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #d9d9d9;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.subscripe-area button {
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  background-color: #ff5959;
+  border-radius: 0px 5px 5px 0;
+}
+.subscripe-area button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+/* subscription ends here */
+
+/* footer start here */
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #0b0d17;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+footer h4 {
+  font-size: 36px;
+  color: #ff5959;
+}
+footer p {
+  color: #d9dbe1;
+}
+
+/* footer ends here */
